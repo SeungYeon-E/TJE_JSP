@@ -8,6 +8,7 @@
 <title>판단결과</title>
 </head>
 <body>
+
 	<%
 	String age = request.getParameter("age");
 	String title = URLDecoder.decode(request.getParameter("title"), "utf-8");
